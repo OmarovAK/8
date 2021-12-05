@@ -48,6 +48,6 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    TOKEN = 'AQAAAABVTIbUAADLW-DUpXP72UBDvBK3bGTO_fg'
+    TOKEN = ''
     Ya = YaUploader(TOKEN)
     Ya._get_upload_link(os.path.basename(name_file))
